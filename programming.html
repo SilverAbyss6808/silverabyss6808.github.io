@@ -16,6 +16,7 @@
     </table>
     <h1>Programming!</h1>
     <p>Learning to program had always been a passion of mine, so I went to school for it! I've got one more year to do towards a Bachelor of Science in Computer Science.</p>
+    <br>
     <h2>Languages I know:</h2>
     <ul>
         <li>Python</li>
@@ -29,7 +30,8 @@
         <li>Basic Powershell and Batch scripting</li>
         <li>GDScript (for Godot Engine)</li>
     </ul>
-    <h2>IDEs I'm familiar with:</h2>
+    <br>
+    <h2>IDEs I've used:</h2>
     <ul>
         <li>Visual Studio</li>
         <li>VS Code</li>
@@ -38,7 +40,84 @@
         <li>PyCharm</li>
         <li>Godot</li>
         <li>Eclipse</li>
+        <li>Notepad++ (don't ask. it wasn't fun.)</li>
+        <li>Jupyter Notebook</li>
     </ul>
+    <br>
+    <h2>Projects I've completed:</h2>
+    <p>
+        I'm including personal and college projects here. I'm NOT
+        including games I'm working on or have created, as those
+        will be under the Games tab. Also - this isn't an 
+        exhaustive list, these are just some of my favorites :)
+    </p>
+    <h3 id="toc">Quick Links:</h3>
+    <ul>
+        <li class="toc_item"><a href="#restaurantfinder">Restaurant Finder</a></li>
+        <li class="toc_item"><a href="#mushroomcategorizer">Mushroom Categorizer</a></li>
+    </ul>
+    <h3 id="restaurantfinder">Restaurant Finder</h3>
+    <img src="assets/restaurant1.png" alt="restaurant program image">
+    <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This was a group project for my Software Engineering class. 
+        Restaurant Finder is a web app meant to help indecisive people
+        choose a restaurant near them. It pulls restaurants from Yelp 
+        based on a zip code entered by the user, then displays them one 
+        by one to allow the user to either thumbs-up or thumbs-down them 
+        based on if they'd consider eating there. If the user selects the 
+        thumbs-up, the restaurant remains in the list, and if they select
+        the thumbs-down button, it is removed. This continues until only 
+        one restaurant is left, with the idea being that this is the 
+        restaurant that the user will visit. 
+    </p>
+    <br>
+    <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; My contribution to this project was the entire Python backend. 
+        I wrote a script to fetch the top 10 restaurants from Yelp based 
+        around the user's entered zipcode, pulling the restaurant name, 
+        rating, services (such as takeout or outdoor seating), type of 
+        food (such as Chinese or Thai), number of reviews, price range, and 
+        phone number. To do this, I utilized the Python <i>requests</i> library 
+        to submit an HTTP request that would return a JSON object that I could then
+        interact with. To allow the frontend of the website to utilize the 
+        provided data, I added all of the restaurants and their info to 
+        a CSV file that could then be parsed and displayed by the frontend. The 
+        GitHub repository for my portion of the project is <a href="https://github.com/SilverAbyss6808/yelp_scraper">here.</a> 
+    </p>
+    <br>
+    <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This project was a huge learning experience for me, 
+        especially since going in, I had only a basic understanding of Python. However, 
+        throughout the fourteen hours straight I spent working on this (it ended up being 
+        more fun than I expected), I gained a more thorough knowledge of Python. Since the 
+        completion of this project, I've gone on to play around more with the language, 
+        especially exploring its applications in the field of machine learning. This ended 
+        up being probably my favorite Python project I've ever done :)
+    </p>
+    <br>
+    <p class="returntotoc"><a href="#toc">^ Return to Quick Links</a></p>
+    <br><br>
+
+    <h3 id="mushroomcategorizer">Mushroom Categorizer</h3>
+    <img src="assets/mushroom.png" alt="jupyter notebook file" class="horiz_image">
+    <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This was a project for a Machine Learning class I took. In this project, I again utilized 
+        Python to create a model that could identify poisonous mushrooms with relative accuracy (LEGAL 
+        DISCLAIMER: this should not be used to decide whether or not you eat a mushroom you find in your yard. This model 
+        is purely for academic purposes. Don't eat that). To find the most effective model for this project, I first tested 
+        three different ones on my training dataset of over 60,000 mushroom images - K-nearest-neighbor, support-vector machine, 
+        and random forest categorization. The support-vector model took an extremely long time to train and could only come 
+        up with an accuracy of 73%, so I threw that one out. The random forest model trained quickly but gave me an accuracy of about 
+        99%, which, while that seems good, is actually an indication that it wouldn't perform well on the test data. The 
+        K-nearest-neighbor model struck a healthy balance between training time and accuracy (about 90%), so that was the 
+        model I ended up using.
+    </p>
+    <br>
+    <p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    </p>
+    <br>
+    <p class="returntotoc"><a href="#toc">^ Return to Quick Links</a></p>
     
     <div id="footer">
         <a href="#navbar">^ Back to Top</a>
