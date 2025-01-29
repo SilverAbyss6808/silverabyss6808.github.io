@@ -55,14 +55,12 @@ ul {
     margin: 0 10%;
 }
 img {
-    margin: 0 auto -35% auto; 
+    border-radius: 25px;
+    align-content: center;
     max-width: 75%;
+    margin: 0 auto;
     height: auto;
-    padding: 0;
     display: block;
-    transform-origin: top center;
-    scale: 0.5;
-    border-radius: 50px;
 }
 
 .current_page {
@@ -88,14 +86,34 @@ img {
     margin: 0 auto 3% auto;
     scale: 1;
 }
-.catgif {
-    margin: auto; 
+.restaurant_image {
+    margin: 0 auto; 
+    max-width: 75%;
     height: auto;
-    padding: inherit;
-    display: inline;
+    padding: 0;
+    display: block;
     transform-origin: top center;
-    scale: 1;
+    scale: 0.5;
+    border-radius: 50px;
+}
+.flex_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+}
+.flex_item {
+    flex-basis: 500px;
+    align-self: center;
     border-radius: 0px;
+}
+.catgif {
+    border-radius: 0;
+    margin: 0;
+    display: inline;
+    padding: inherit;
 }
 
 #mail_icon {
