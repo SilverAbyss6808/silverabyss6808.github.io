@@ -92,8 +92,7 @@ img {
     height: auto;
     padding: 0;
     display: block;
-    transform-origin: top center;
-    scale: 0.5;
+    transform-origin: center;
     border-radius: 50px;
 }
 .flex_container {
@@ -105,7 +104,7 @@ img {
     row-gap: 50px;
 }
 .flex_item {
-    flex-basis: 500px;
+    flex-basis: 40%;
     align-self: center;
     border-radius: 0px;
 }
