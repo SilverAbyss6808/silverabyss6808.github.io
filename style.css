@@ -12,6 +12,9 @@ html {
     font-size: 30px;
     margin: 0;
 }
+body {
+    margin: 0;
+}
 h1 {
     font-size: 75px;
     text-align: center;
@@ -19,6 +22,7 @@ h1 {
 h2 {
     font-size: 40px;
     text-align: center;
+    margin: 0 10%;
 }
 table {
     text-align: center;
@@ -39,11 +43,10 @@ td {
 }
 a {
     color: var(--accent-2);
-    text-decoration: none;
+    text-decoration: underline;
 }
 p {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0 10%;
 }
 ul {
     margin: 0 10%;
@@ -52,14 +55,32 @@ ul {
 .current_page {
     background-color: var(--bg);
 }
+.current_page a {
+    text-decoration: none;
+}
 .attribution {
     font-size: 10px;
 }
+.menu_box a {
+    text-decoration: none;
+}
 
 #mail_icon {
-    scale: 30%;
     margin: 0;
     padding: 0;
+    bottom: 0;
+}
+#footer {
+    margin-top: 100px;
+    padding: 50px;
+    background-color: var(--accent-1);
+    color: var(--accent-2);
+    position: relative;
+    bottom: 0px;
+}
+#footer a {
+    text-decoration: none;
+    margin-bottom: 0;
 }
 
 a:link {
