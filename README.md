@@ -1,1 +1,1 @@
-Open https://silverabyss6808.github.io/!!
+Open https://silverabyss6808.com/!!
