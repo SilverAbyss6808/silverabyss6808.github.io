@@ -3,6 +3,8 @@
     --main-text: #F5ECD5;
     --accent-1: #578E7E;
     --accent-2: #FFFAEC;
+
+    --radius: 25px;
 }
 
 
@@ -12,6 +14,7 @@ html {
     color: var(--main-text);
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1.25rem;
+    text-align: justify;
     margin: 0;
 }
 
@@ -27,7 +30,7 @@ h1 {
 h2 {
     /* font-size: 1.75rem; */
     text-align: center;
-    margin: 0 10%;
+    padding: 0 10%;
 }
 
 h3 {
@@ -40,7 +43,7 @@ a {
 }
 
 p {
-    margin: 0 10%;
+    padding: 0 10%;
 }
 
 ul {
@@ -48,12 +51,15 @@ ul {
 }
 
 img {
-    border-radius: 25px;
+    border-radius: var(--radius);
     align-content: center;
     max-width: 75%;
     margin: 0 auto;
     height: auto;
     display: block;
+
+    border: 10px solid var(--accent-2);
+    box-shadow: 0px 5px 5px #00000050;
 }
 
 
@@ -79,7 +85,7 @@ img {
     padding: 0;
     display: block;
     transform-origin: center;
-    border-radius: 50px;
+    border-radius: var(--radius);
 }
 .flex_container {
     display: flex;
@@ -91,8 +97,8 @@ img {
 }
 .flex_item {
     flex-basis: 40%;
-    align-self: center;
-    border-radius: 0px;
+    /* align-self: center; */
+    border-radius: 0;
 }
 .catgif {
     border-radius: 0;
@@ -107,6 +113,15 @@ img {
     padding: inherit;
     max-width: 30px;
 }
+.gif {
+    border: none;
+    box-shadow: none;
+}
+.circleit {
+    border: 2px solid var(--accent-2);
+    border-radius: var(--radius);
+    margin: 5% 10%;
+}
 
 
 
@@ -116,7 +131,7 @@ img {
         padding: 1% 2%;
         margin: 1% 0;
         background-color: var(--accent-1);
-        border-radius: 25px;
+        border-radius: var(--radius);
     }:hover {
         background-color: var(--accent-2);
         color: var(--bg);
@@ -147,6 +162,15 @@ img {
 
 #selfimage {
     max-width: 20%;
+}
+
+#ai_stance {
+    margin: 0 10%;
+    color: var(--accent-2);
+    background-color: var(--accent-1);
+    padding: 1%;
+    border: 2px solid var(--accent-2);
+    border-radius: var(--radius);
 }
 
 #footer {

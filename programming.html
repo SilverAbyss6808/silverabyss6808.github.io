@@ -15,89 +15,111 @@
     </nav>
 
     <h1>Programming!</h1>
-    <p>Learning to program has always been a passion of mine, so I went to school for it! I graduated
-        from Ohio Northern University in May of 2026 with a bachelor's in Computer Science.
-    </p>
-    <br>
-
-    <h2>But first, an important note on AI:</h2>
     <p>
-        "Artificial intelligence" is a very broad umbrella, and there are so, so many positive uses for it. 
-        <i>Generative</i> AI, however, is <b>not</b> one of those positive uses. The heavy impact AI datacenters 
-        have on the environment, the measurable decline in critical thinking skills shown in even moderate users, 
-        and the theft of data that's central to the training of AI models are all reasons <i>I firmly believe it has
-        no place in our society</i>. In the field of programming, AI-generated code is more verbose, less reliable,
-        and more prone to errors than human-written code. Plus, as software engineers use AI even to <i>help</i> 
-        write code, they become less and less familiar with the codebase, so when issues arise, it takes more time 
-        to fix it than it would have taken someone who wrote the code themself.
-        <br><br>
-        On a more personal note, I love programming. The learning and growth I achieve while working through 
-        and solving difficult problems is one of the most rewarding feelings in the world, not to mention how much 
-        fun I have just sitting and writing even the most mundane code. Why would I ever want to skip the fun part?
+        I wanted to learn to program, so I went to school for it! I graduated <i>summa cum laude</i> from 
+        Ohio Northern University in May of 2026 with a bachelor's in Computer Science. I've also co-authored a 
+        <a href="https://peer.asee.org/59682" target="_blank">research paper</a> about power grid optimization 
+        using Python (more on that below!) that I traveled to <a href="conferences.html">two conferences</a> 
+        to present!
     </p>
     <br>
+    
+    <div id="ai_stance">
+        <h2>But first, an important note on AI:</h2>
+        <p>
+            "Artificial intelligence" is a very broad umbrella, and there are so, so many positive uses for it. 
+            <i>Generative</i> AI, however, is <b>not</b> one of those positive uses. The heavy impact AI datacenters 
+            have on the environment, the measurable decline in critical thinking skills shown in even moderate users, 
+            and the theft of data that's central to the training of AI models are all reasons <i>I firmly believe it has
+            no place in our society</i>. In the field of programming, AI-generated code is more verbose, less reliable,
+            and more prone to errors than human-written code. Plus, as software engineers use AI even to <i>help</i> 
+            write code, they become less and less familiar with the codebase, so when issues arise, it takes more time 
+            to fix it than it would have taken someone who wrote the code themself.
+            <br><br>
+            On a more personal note, I love programming. The learning and growth I achieve while working through 
+            and solving difficult problems is one of the most rewarding feelings in the world, not to mention how much 
+            fun I have just sitting and writing even the most mundane code. Why would I ever want to skip the fun part?
+        </p>
+        <h2>As such, there is <i>no generative AI use</i> anywhere on this site or within any of my other work.</h2>
+    </div>
+    
+    <p style="text-align: center;">With that out of the way...</p>
 
-    <h2>Languages I know:</h2>
-    <ul>
-        <li>Python</li>
-        <li>C++</li>
-        <li>Java</li>
-        <li>Kotlin</li>
-        <li>Assembly (and its machine language translations)</li>
-        <li>JavaScript</li>
-        <li>HTML, CSS, and templating language Pug</li>
-        <li>MySQL</li>
-        <li>Basic Powershell and Batch scripting</li>
-        <li>GDScript (for Godot Engine)</li>
-    </ul>
-    <br>
+    <div class="flex_container" style="align-items: start;">
+        <div class="flex_item">
+            <h2>Proficient Languages</h2>
+            <ul>
+                <li>Python</li>
+                <li>C++</li>
+                <li>Java</li>
+                <li>Kotlin</li>
+                <li>JavaScript</li>
+                <li>GDScript (for Godot Engine)</li>
+                <li>HTML/CSS, templating languages Pug and Twig</li>
+                <li>MySQL</li>
+                <li>Powershell/Batch scripting</li>
+                <li>Shell scripting</li>
+            </ul>
+        </div>
 
-    <h2>IDEs I've used:</h2>
-    <ul>
-        <li>Visual Studio</li>
-        <li>VS Code</li>
-        <li>IntelliJ IDEA</li>
-        <li>Android Studio</li>
-        <li>PyCharm</li>
-        <li>Godot</li>
-        <li>Eclipse</li>
-        <li>Jupyter Notebook</li>
-    </ul>
-    <br>
-    <h2>Projects I've completed:</h2>
+        <div class="flex_item">
+            <h2>Proficient IDEs</h2>
+            <ul>
+                <li>Visual Studio</li>
+                <li>VS Code</li>
+                <li>IntelliJ IDEA</li>
+                <li>Android Studio</li>
+                <li>PyCharm</li>
+                <li>Godot</li>
+                <li>Eclipse</li>
+                <li>Jupyter Notebook</li>
+            </ul>
+        </div>
+    </div>
+    
+    <h2>Projects</h2>
     <p>
         I'm including personal and college projects here. I'm NOT
         including games I'm working on or have created, as those
         will be under the Games tab. Also - this isn't an 
         exhaustive list, these are just some of my favorites :)
     </p>
+
     <h3 id="toc">Quick Links:</h3>
     <ul>
-        <li class="toc_item"><a href="#restaurantfinder">Restaurant Finder</a></li>
-        <li class="toc_item"><a href="#mushroomcategorizer">Mushroom Categorizer</a></li>
-        <li class="toc_item"><a href="#thissite">This Website</a></li>
+        <li class="toc_item"><a href="#electricitygame">Power Grid Optimization Game</a></li>
+        <li class="toc_item"><a href="#capstone">ONU Senior Capstone: Hardin County HLC Website</a></li>
+        <li class="toc_item"><a href="#language">ONU Honors Contract: Baxcode Language</a></li>
     </ul>
-    <br>
+    
+    <div id="electricitygame" class="circleit">
+        <h3>Power Grid Optimization Game*</h3>
+        <p style="text-align: center; font-size: 0.75rem">
+            *Small note: While this project itself is technically a game, my portion of it was much more focused on the 
+            optimization script itself, so I put it here.
+        </p>
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fill this in...
+        </p>
+    </div>
 
-    <h3 id="electricitygame">Electricity Optimization Game</h3>
-    <br>
-    <p>* small note: while this is technically a game, my portion of it was much more focused on the 
-        optimization script itself, so I put it here.
-    </p>
-    <br>
-    <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fill this in...
-    </p>
+    <div id="capstone" class="circleit">
+        <h3>ONU Senior Capstone: Hardin County HLC Website</h3>
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fill this in...
+        </p>
+    </div>
 
-    <h3 id="capstone">ONU Senior Capstone: Hardin County HLC Website</h3>
-    <br>
-    <p>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fill this in...
-    </p>
+    <div id="language" class="circleit">
+        <h3>ONU Honors Contract: Baxcode Language</h3>
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fill this in...
+        </p>
+    </div>
 
+    <!--
     <h3 id="restaurantfinder">Restaurant Finder</h3>
     <img src="assets/restaurant1.png" alt="restaurant program image" class="restaurant_image">
-    <br>
     <p>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This was a group project for my Software Engineering class. 
         Restaurant Finder is a web app meant to help indecisive people
@@ -109,9 +131,7 @@
         the thumbs-down button, it is removed. This continues until only 
         one restaurant is left, with the idea being that this is the 
         restaurant that the user will visit. 
-    </p>
-    <br>
-    <p>
+        <br><br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; My contribution to this project was the entire Python backend. 
         I wrote a script to fetch the top 10 restaurants from Yelp based 
         around the user's entered zipcode, pulling the restaurant name, 
@@ -122,10 +142,8 @@
         interact with. To allow the frontend of the website to utilize the 
         provided data, I added all of the restaurants and their info to 
         a CSV file that could then be parsed and displayed by the frontend. The 
-        GitHub repository for my portion of the project is <a href="https://github.com/SilverAbyss6808/yelp_scraper">here.</a> 
-    </p>
-    <br>
-    <p>
+        GitHub repository for my portion of the project is <a href="https://github.com/SilverAbyss6808/yelp_scraper">here.</a>
+        <br><br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This project was a huge learning experience for me, 
         especially since going in, I had only a basic understanding of Python. However, 
         throughout the fourteen hours straight I spent working on this (it ended up being 
@@ -134,13 +152,11 @@
         especially exploring its applications in the field of machine learning. This ended 
         up being my favorite Python project I've ever done :)
     </p>
-    <br>
+    
     <p class="returntotoc"><a href="#toc">^ Return to Quick Links</a></p>
-    <br><br>
 
     <h3 id="mushroomcategorizer">Mushroom Categorizer</h3>
     <img src="assets/mushroom.png" alt="jupyter notebook file">
-    <br>
     <p>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This was a project for a Machine Learning class I took. In this project, I again utilized 
         Python to create a model that could identify poisonous mushrooms with relative accuracy (LEGAL 
@@ -152,23 +168,20 @@
         99%, which, while that seems good, is actually an indication that it wouldn't perform well on the test data. The 
         K-nearest-neighbor model struck a healthy balance between training time and accuracy (about 90%), so that was the 
         model I ended up using.
-    </p>
-    <br>
-    <p>
+        <br><br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This project gave me a more thorough understanding of Python's uses in the field of 
         machine learning. It piqued my interest in the field greatly. In the future, I hope to use this more, especially with 
         the emergence of AI. 
     </p>
-    <br>
+    
     <p class="returntotoc"><a href="#toc">^ Return to Quick Links</a></p>
-    <br>
-
+    
     <h3 id="thissite">This Website!</h3>
-    <br>
     <p>
         I programmed this site in HTML from scratch! My goal is to make a responsive, expandable, easy-to-use website to 
         use as a portfolio of sorts, bringing together all of the projects I'm most proud of. 
     </p>
+    -->
     
     <div id="footer">
         <a href="#navbar">^ Back to Top</a>
