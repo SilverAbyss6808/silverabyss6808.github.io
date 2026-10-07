@@ -66,7 +66,7 @@
             <h2>Proficient IDEs</h2>
             <ul>
                 <li>Visual Studio</li>
-                <li>VS Code</li>
+                <li>VS Code (my personal preference)</li>
                 <li>IntelliJ IDEA</li>
                 <li>Android Studio</li>
                 <li>PyCharm</li>
@@ -99,7 +99,10 @@
             optimization script itself, so I put it here.
         </p>
         <p>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; fill this in...
+            The electrical grid is powered by a variety of power plants of many different types, each with a 
+            different production price, environmental footprint, and upper and lower production bound. As 
+            consumers, it's in our best interest that the least expensive plants are chosen, as this leads 
+            to lower electricity bills. The first part of this project was a Python script to optimize the amount of electricity being generated from multiple plants to find the combination of plant generation levels that costs the consumer the least. This script utilizes the PyMOO (Python Multi-Objective Optimization) library and a genetic algorithm to generate several initial populations within the plants’ bounds, then chooses the cheapest results from there, crosses them over with each other to create new populations, mutates a few numbers, then repeats until a certain number of generations is reached. This is run independently on several threads at once, and once all are finished, the best result of all runs is returned to the user. They can then be shown a graph of the best result.
         </p>
     </div>
 

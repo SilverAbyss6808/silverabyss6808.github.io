@@ -122,6 +122,10 @@ img {
     border-radius: var(--radius);
     margin: 5% 10%;
 }
+.subtitle {
+    text-align: center; 
+    margin-top: 0;
+}
 
 
 
