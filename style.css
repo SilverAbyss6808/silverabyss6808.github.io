@@ -97,8 +97,10 @@ img {
 }
 .flex_item {
     flex-basis: 40%;
+    max-width: 40%;
     /* align-self: center; */
     border-radius: 0;
+    margin: 0;
 }
 .catgif {
     border-radius: 0;
@@ -115,6 +117,7 @@ img {
 }
 .gif {
     border: none;
+    border-radius: unset;
     box-shadow: none;
 }
 .circleit {
@@ -126,6 +129,17 @@ img {
     text-align: center; 
     margin-top: 0;
 }
+.has_subtitle {
+    margin-bottom: 0;
+}
+.youtube_embed {
+    aspect-ratio: 16/9;
+    width: 100%;
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
 
 
 
@@ -198,4 +212,16 @@ a:link {
 }
 a:visited {
     color: var(--accent-2);
+}
+
+
+@media (max-width: 800px) { /* for mobile layouts */
+
+    .flex_container {
+        flex-direction: column;
+    }
+    .flex_item {
+        max-width: 80%;
+    }
+
 }
