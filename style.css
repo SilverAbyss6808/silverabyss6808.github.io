@@ -17,39 +17,31 @@ html {
     text-align: justify;
     margin: 0;
 }
-
 body {
     margin: 0;
 }
-
 h1 {
     /* font-size: 2.5rem; */
     text-align: center;
 }
-
 h2 {
     /* font-size: 1.75rem; */
     text-align: center;
     padding: 0 10%;
 }
-
 h3 {
     text-align: center;
 }
-
 a {
     color: var(--accent-2);
     text-decoration: underline;
 }
-
 p {
     padding: 0 10%;
 }
-
 ul {
     margin: 0 10%;
 }
-
 img {
     border-radius: var(--radius);
     align-content: center;
@@ -145,7 +137,6 @@ img {
 
 
 
-
 #navbar {
     a { 
         text-decoration: none;
@@ -174,17 +165,14 @@ img {
     padding: 0 1%;
     gap: 1%;
 }
-
 #mail-icon {
     margin: 0;
     padding: 0;
     bottom: 0;
 }
-
 #selfimage {
     max-width: 20%;
 }
-
 #ai-stance {
     margin: 0 10%;
     color: var(--accent-2);
@@ -193,7 +181,6 @@ img {
     border: 2px solid var(--accent-2);
     border-radius: var(--radius);
 }
-
 #footer {
     a {
         text-decoration: none;
@@ -216,6 +203,7 @@ a:link {
 a:visited {
     color: var(--accent-2);
 }
+
 
 
 @media (max-width: 800px) { /* for mobile layouts */
