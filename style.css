@@ -67,18 +67,18 @@ img {
 .attribution {
     font-size: 10px;
 }
-.toc_item {
+.toc-item {
     margin: 0 20%;
 }
 .returntotoc {
     font-size: 20px;
     text-align: center;
 }
-.horiz_image {
+.horiz-image {
     margin: 0 auto 3% auto;
     scale: 1;
 }
-.restaurant_image {
+.restaurant-image {
     margin: 0 auto; 
     max-width: 75%;
     height: auto;
@@ -87,7 +87,7 @@ img {
     transform-origin: center;
     border-radius: var(--radius);
 }
-.flex_container {
+.flex-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -95,7 +95,7 @@ img {
     align-items: center;
     row-gap: 50px;
 }
-.flex_item {
+.flex-item {
     flex-basis: 40%;
     max-width: 40%;
     /* align-self: center; */
@@ -125,17 +125,17 @@ img {
     border-radius: var(--radius);
     margin: 5% 10%;
 }
-.thin_border {
+.thin-border {
     border: 2px solid var(--accent-2);
 }
 .subtitle {
     text-align: center; 
     margin-top: 0;
 }
-.has_subtitle {
+.has-subtitle {
     margin-bottom: 0;
 }
-.youtube_embed {
+.youtube-embed {
     aspect-ratio: 16/9;
     width: 100%;
     display: block;
@@ -158,7 +158,7 @@ img {
         color: var(--bg);
         box-shadow: 0px 5px 5px #00000050;
     }
-    .current_page {
+    .current-page {
         background-color: var(--bg);
         color: var(--main-text);
         border-bottom-left-radius: 0;
@@ -175,7 +175,7 @@ img {
     gap: 1%;
 }
 
-#mail_icon {
+#mail-icon {
     margin: 0;
     padding: 0;
     bottom: 0;
@@ -185,7 +185,7 @@ img {
     max-width: 20%;
 }
 
-#ai_stance {
+#ai-stance {
     margin: 0 10%;
     color: var(--accent-2);
     background-color: var(--accent-1);
@@ -220,10 +220,10 @@ a:visited {
 
 @media (max-width: 800px) { /* for mobile layouts */
 
-    .flex_container {
+    .flex-container {
         flex-direction: column;
     }
-    .flex_item {
+    .flex-item {
         max-width: 80%;
     }
 
